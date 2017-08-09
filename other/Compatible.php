@@ -5,12 +5,6 @@ namespace Swoole
     class Client extends \swoole_client{}
     class Process extends \swoole_process{}
     class Timer extends \swoole_timer{}
-    class Table extends \swoole_table{}
-    class Lock extends \swoole_lock{}
-    class Atomic extends \swoole_atomic{}
-    class Buffer extends \swoole_buffer{}
-    class Event extends \swoole_event{}
-    class Module extends \swoole_module{}
     if (class_exists('\\swoole_redis', false))
     {
         class Redis extends \swoole_redis{}
